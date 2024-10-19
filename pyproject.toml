@@ -7,7 +7,7 @@ name = "orca-driver-mock"
 version = "0.1.0"
 description = "A mock driver for the Orca Laboratory Automation Software"
 authors = [
-    { name = "Cheshire Labs", email = "michaeltsalmi@cheshirelabs.io" }
+    { name = "Cheshire Labs", email = "support@cheshirelabs.io" }
 ]
 readme = "README.md"
 license = { text = "GNU Affero General Public License v3 (AGPLv3)" }
