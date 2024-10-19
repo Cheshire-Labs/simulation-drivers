@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orca-driver-mock"
+version = "0.1.0"
+description = "A mock driver for the Orca Laboratory Automation Software"
+authors = [
+    { name = "Cheshire Labs", email = "michaeltsalmi@cheshirelabs.io" }
+]
+readme = "README.md"
+license = { text = "GNU Affero General Public License v3 (AGPLv3)" }
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: GNU Affero General Public License v3 (AGPLv3)",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "cheshire-orca-interfaces@git+https://github.com/Cheshire-Labs/orca-interfaces.git"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[project.optional-dependencies]
+dev = [
+    "types-setuptools>=75.1.0"
+]
+
+[project.urls]
+"Repository" = "https://github.com/Cheshire-Labs/mock-driver"
