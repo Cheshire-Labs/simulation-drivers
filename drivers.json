@@ -1,0 +1,22 @@
+{
+    "mock-driver":{
+        "name":"mock-driver",
+        "description": "Mock Driver",
+        "driverPath": "mock_driver.mock_driver",
+        "driverClass": "MockDriver",
+        "commands": {
+            "test_command": {
+                "name": "Test Command",
+                "description": "Test command Description",
+                "parameters": {
+                    "param1": {
+                        "name": "Test Parameter 1",
+                        "description": "Test Parameter 1 Description",
+                        "type": "string",
+                        "required": true
+                    }
+                }
+            }
+        }
+    }
+}
