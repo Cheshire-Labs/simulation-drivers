@@ -3,20 +3,6 @@
         "name":"mock-driver",
         "description": "Mock Driver",
         "driverPath": "mock_driver.mock_driver",
-        "driverClass": "MockDriver",
-        "commands": [
-            {
-                "name": "test_command",
-                "description": "Test command Description",
-                "params": [
-                     {
-                        "name": "param1",
-                        "description": "Test Parameter 1 Description",
-                        "type": "string",
-                        "required": true
-                    }
-                ]
-            }
-        ]
+        "driverClass": "MockDriver"
     }
 ]
