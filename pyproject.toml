@@ -18,7 +18,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "cheshire-orca-interfaces@git+https://github.com/Cheshire-Labs/orca-interfaces.git"
+    "orca-interfaces@git+https://github.com/Cheshire-Labs/orca-interfaces.git"
 ]
 
 [tool.setuptools.packages.find]
