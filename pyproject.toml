@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "orca-driver-mock"
+name = "cl-orca-driver-mock"
 version = "0.1.0"
 description = "A mock driver for the Orca Laboratory Automation Software"
 authors = [
