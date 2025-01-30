@@ -2,7 +2,7 @@ from orca_driver_interface.driver_interfaces import ILabwarePlaceableDriver
 from typing import Any, Dict, Optional
 
 
-class MockDriver(ILabwarePlaceableDriver):
+class TestDriver(ILabwarePlaceableDriver):
 
     def __init__(self, name: str):
         self._name = name

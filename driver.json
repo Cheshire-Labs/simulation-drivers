@@ -1,8 +1,8 @@
 [
     {
-        "name":"mock-driver",
-        "description": "Mock Driver",
-        "driverPath": "mock_driver.mock_driver",
-        "driverClass": "MockDriver"
+        "name":"test-driver",
+        "description": "Test Driver",
+        "driverPath": "test_driver.test_driver",
+        "driverClass": "TestDriver"
     }
 ]
